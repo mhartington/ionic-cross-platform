@@ -1,5 +1,6 @@
 module.exports = {
   pathPrefix: '/ionic-cross-platform',
+  // pathPrefix: '/',
   plugins: [
     'gatsby-plugin-catch-links',
     {
