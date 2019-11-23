@@ -1,0 +1,256 @@
+import { Image, Notes } from 'mdx-deck'
+import ionic from '../theme/ionic'
+import Provider from '../layout/provider'
+import MhSplit from '../layout/split'
+import ColorLayout from '../layout/color'
+import {  CodeSurfer } from 'code-surfer';
+import {  vsDark } from '@code-surfer/themes';
+
+export const themes = [ionic, Provider];
+
+<img src="ionic-icon.svg" width="250" />
+<br/>
+
+<h3>Cross Platform <br/> with Ionic and Angular</h3>
+
+[Mike Hartington | @mhartington](https://twitter.com/mhartington)
+
+---
+
+### Building for Mobile
+### is Difficult
+
+---
+
+- Multiple Platforms styles to design for
+- Different code base to maintain
+- More developers to hire
+- Steep learning curve
+- What about PWAs?
+
+---
+
+### Solutions?
+
+-  Build Native?
+-  Compile to Native?
+-  Web Technologies?
+
+---
+
+### Fully Native
+
+- Multiple languages to learn (Obj-C, Swift, Java, Kotlin)
+- Multiple code bases to maintain
+- Multiple teams to coordinate
+
+---
+
+### Solutions?
+
+- ~~Build Native?~~
+-  Compile to Native?
+-  Web Technologies?
+
+
+---
+
+### Compile to Native?
+
+- Uncanny Valley of “Native” and not native
+- Difficult to work around complex abstractions
+- Still need to know native development tools
+
+---
+
+### Solutions?
+
+- ~~Build Native?~~
+- ~~Compile to Native?~~
+-  Web Technologies?
+
+---
+
+### Web Technologies
+
+- It runs everywhere
+- Future-proof
+- Accessible
+
+---
+
+### Solutions
+
+- ~~Build Native?~~
+- ~~Compile to Native?~~
+- Web Technologies? ✅
+
+---
+
+### The Web is Too Low Level
+
+- Complext Primitives (Camera, Geolocation, etc)
+- No animations, gestures, interactive
+- Complex Navigation
+
+---
+
+### Native gets this for Free
+
+---
+
+<ColorLayout bgColor="#567FF6">
+
+<h3 style={{color: 'white'}}> Enter Ionic</h3>
+
+### 👋
+
+</ColorLayout>
+
+---
+
+<img src="ionic-icon.svg" width="250" />
+<br/>
+
+- UI Components for native, PWAs, and Desktop
+- Pre-built Gestures and Animations
+- Full access to all Native APIs and Plugins
+- A large, vibrant world-wide community
+
+---
+
+#### 100+ UI Components
+
+<img src="ui.png"  style="width: 90%"/>
+
+---
+
+
+<MhSplit>
+
+<div style="text-align: left">
+
+#### Gestures & Animations
+
+- Swipe gestures between routes
+- Slide Carousel for App Intros
+- Swipe Menus for deeper context
+
+</div>
+
+
+<video src="ios-ionic.mp4" autoplay="true" muted width="400" loop></video>
+
+</MhSplit>
+
+---
+
+
+<MhSplit>
+
+<div style="text-align: left">
+
+#### Platform Continuity
+- Platform-aware components
+- Look-and-feel at home
+- Up to date with latest UI design
+
+</div>
+
+<img src="md-card.png" width="350" />
+<img src="ios-card.png" width="350" />
+
+</MhSplit>
+
+
+---
+
+<MhSplit>
+
+<div style="text-align: left">
+
+#### Native Access
+-  Official plugins we maintain
+-  Capacitor for accessing Native API
+-  Community driven plugin ecosystem
+
+</div>
+
+<img src="native.png" style="width:80%" />
+
+</MhSplit>
+
+
+---
+
+### So how to get started
+
+---
+
+
+<CodeSurfer>
+
+```shell
+npm install -g ionic
+```
+
+```shell
+npm install -g ionic
+ionic start myApp --type angular
+```
+
+```shell
+ionic start myApp --type angular
+Let's pick the perfect starter template! 💪
+
+? Starter template: (Use arrow keys)
+❯ tabs     | A starter with tabs
+  sidemenu | A starter with a side menu
+  blank    | A blank starter project
+```
+
+```shell
+ionic start myApp --type angular
+Let's pick the perfect starter template! 💪
+
+? Starter template: (Use arrow keys)
+❯ tabs     | A starter with tabs
+  sidemenu | A starter with a side menu
+  blank    | A blank starter project
+
+✔ Preparing directory ./myApp - done!
+✔ Downloading tabs starter - done!
+
+Installing dependencies...
+
+> npm install
+
+[INFO] Next Steps:
+- cd into newly created project: cd myApp
+- Run ionic serve to see your app
+```
+
+```shell
+$ cd ionic serve
+```
+
+</CodeSurfer>
+
+---
+
+### What's Next ?
+
+---
+
+- [Official Docs](https://ionicframework.com/docs)
+- [Getting Started](https://ionicframework.com/docs/building/starting)
+- [Capacitor Guide](https://capacitor.ionicframework.com)
+
+---
+
+### Thanks
+
+[Mike Hartington | @mhartington](https://twitter.com/mhartington)
+
+#### `</html>`
+
